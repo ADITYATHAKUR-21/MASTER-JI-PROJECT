@@ -22,17 +22,19 @@ body{
     border-style: none;
 }
 
-.pre{
-    text-align: center;
-}
+
+
 
 #preview{
-    border: 1px solid black;
+    
     height: 450px;
     width: 600px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
     border-style: none;
+    text-align: left;
+    word-wrap: break-word;
+    overflow: scroll;
 }
 
 #button{
@@ -46,4 +48,34 @@ body{
 #button:hover{
     background-color: #0a31de;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+
+    #textarea{
+    height: 300px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    border-style: none;
+} 
+    #preview{
+    
+    height: 300px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: left;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+  .container{
+    display: block;
+  }
+
 }
