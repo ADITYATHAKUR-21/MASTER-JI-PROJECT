@@ -20,12 +20,6 @@ It use to write a markdown
 - Responsive
 - Support a markdown feature
 
-
-
-
-## License
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 Your Name - [adityakr123muz@gmail.com]
 
